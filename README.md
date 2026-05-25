@@ -50,13 +50,13 @@ CREATE TABLE bug (
     status VARCHAR(50)
 );
 
-Compile Project:
+### Compile Project:
 mvn clean compile
 
-Run Application:
+### Run Application:
 mvn exec:java "-Dexec.mainClass=com.day5project1.App"
 
-Sample Output
+### Sample Output
 bug inserted successfully
 bug inserted successfully
 
